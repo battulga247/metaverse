@@ -89,16 +89,20 @@
 }
 
 .feedback-gradient {
-  position: absolute;
-  width: 200px;
-  height: 316px;
+
+  background: #8d39a3;
+
+  background: linear-gradient(180deg, rgba(184,58,147,1) 0%, rgba(82,2,58,1) 20%, rgba(68,25,102,1) 81%);
+ 
+
+}
+.feedback {
+
+
   left: 0px;
   top: 0px;
 
-  background: #8d39a3;
-  filter: blur(175px);
 }
-
 .footer-gradient {
   position: absolute;
   width: 500px;
